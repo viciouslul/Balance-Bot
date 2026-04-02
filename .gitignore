@@ -1,0 +1,59 @@
+# Build output
+build/
+cmake-build-*/
+
+# CubeMX generated (if you want to track them, remove these)
+*.ioc
+
+# Compiled output
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# Object files
+*.o
+*.obj
+
+# Dependency files
+*.d
+
+# Static libraries
+*.a
+*.lib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDE specific
+.idea/
+.vscode/
+*.launch
+*.cproject
+*.project
+*.settings
+
+# STM32CubeIDE
+.metadata/
+RemoteSystemsTempFiles/
+Backup/
+
+# Debug
+*.jdebug
+*.jdebug.user
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Toolchain artifacts
+*.su
+*.cyclo
